@@ -1,0 +1,41 @@
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: solid 2px #0f9;
+    margin-top: 20px;
+}
+
+.tarjeta h2{
+    font-size: 20px;
+}
+
+img{
+    width: 140px;
+}
+
+.btnAgregarAlCarrito,.btnQuitarDelCarrito{
+    height: 150px;
+    width: 170px;
+    margin-top: 10px;
+}
+
+button:hover{
+    opacity: 86%;
+}
+
+@media (max-width:850px){
+    .tarjeta{
+        flex-direction: column;
+    }
+    img{
+        width: 180px;
+        height: 220px;
+    }
+    .btnAgregarAlCarrito,.btnQuitarDelCarrito{
+        height: 100px;
+        width: 160px;
+        margin-top: 0px;
+    }
+}
