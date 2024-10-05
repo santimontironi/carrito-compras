@@ -11,6 +11,6 @@ Este proyecto es una aplicación de carrito de compras desarrollada con **React*
 - **Calcular Total**: El total de la compra se calcula automáticamente según la cantidad de productos en el carrito.
 - **Botón de Compra**: Se incluye un botón para proceder con la compra.
 
-## Ver aplicacion
-
+## Ver aplicacion desplegada
+https://carritodecompras-reactjs.netlify.app/
 
